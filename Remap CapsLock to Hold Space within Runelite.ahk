@@ -3,7 +3,7 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
-CapsLock::
++Space::
 RepeatKey := !RepeatKey
 If RepeatKey
 	SetTimer, SendTheKey, 30	; The integer here is the number of milliseconds between repeats.
